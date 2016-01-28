@@ -1,0 +1,15 @@
+1) select beer, price
+from sells
+where bar='Blue Angel'
+ 
+2) select d.name, d.phone
+from drinkers d, likes l
+where d.name=l.drinker AND l.beer = 'Budweiser'
+ 
+3) select f1.bar
+from frequents f1, frequents f2
+where f1.drinker = 'Vince' AND f2.drinker='Herb' AND f1.bar=f2.bar
+ 
+4) select *
+from bars b
+where b.city = 'Chicago' AND ((b.addr IS NULL AND b.phone IS NOT LULL) OR (d.phone IS NULL AND b.addr IS NOT NULL))

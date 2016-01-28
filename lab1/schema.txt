@@ -1,0 +1,25 @@
+Jinyan Li 
+jli134
+CMPS180 lab1
+
+Smith Video
+
+movie(movie_id, name, description, rating, year, length)
+The key is movie_id
+ 
+customer(customer_id, first_name, last_name, email, address_id)
+The key is customer_id
+
+address(address_id, house_number, stree, city state, postal_code, phone_number)
+The key is address_id
+
+Smith Books
+
+book(book_id, title, author_id, edition, publisher)
+The key is book_id
+
+author(author_id, first_name, last_name)
+The key is author_id
+
+customer(customer_id, first_name, last_name, phone_number)
+The key is customer_id

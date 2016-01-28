@@ -1,0 +1,6 @@
+CREATE TABLE Scores (
+  Team VARCHAR(30),
+  Day VARCHAR(50),
+  Opponent VARCHAR(50),
+  Runs INT
+);

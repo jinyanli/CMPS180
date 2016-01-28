@@ -1,0 +1,7 @@
+1. select distinct l1.beer from likes l1, likes l2 where l1.beer=l2.beer and l1.drinker<>l2.drinker;
+ 
+2. select beer from likes group by beer having count(*)>2;
+ 
+3. select distinct l.beer from friends f, likes l where (f.drinker1 = 'Anna' and l.drinker=f.drinker2) or (f.drinker2= 'Anna" and l.drinker=f.drinker1);
+ 
+4. select distinct s.bar from sells s where s.price > ALL (select t.price from sells t where t.bar='99 bottles');

@@ -1,0 +1,24 @@
+#Yong Ning Hu
+#cryhu@ucsc.edu
+
+Downtown Video Schemas
+
+Film(film_id, title, description, rating, length)
+key constraint is film_id
+
+Customer(customer_id, firstName, lastName, email, address_id)
+key constraint is customer_id
+
+Address(address_id, street, city, state, postalCode, phoneNumber)
+key constraint is address_id
+
+City Books Schemas
+
+Book(book_id, title, author_id)
+key constraint is book_id
+
+Author(author_id, firstName, lastName)
+key constraint is author_id
+
+Customer(customer_id, firstName, lastName, phoneNumber)
+key constraint is customer_id

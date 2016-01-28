@@ -1,0 +1,20 @@
+Problem 1.
+CREATE TABLE Sells 
+(bar varchar(255),beer varchar(255),price decimal (8,2));
+CREATE TABLE Frequents 
+(drinker varchar(255),bar varchar(255));
+CREATE TABLE Likes
+(drinker varchar(255),beer varchar(255));
+Problem 2.
+ALTER TABLE Sells
+ADD size int
+ 
+Problem 3.
+SELECT beer
+FROM Sells
+WHERE bar = '99bottles'
+ 
+Problem 4.
+SELECT beer
+FROM Sells
+WHERE price > 3

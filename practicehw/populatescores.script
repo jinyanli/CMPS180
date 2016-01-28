@@ -1,0 +1,14 @@
+COPY Scores FROM stdin USING DELIMITERS '|';
+Dragons|Sunday|Swallows|4
+Tigers|Sunday|Bay Stars|9
+Carp|Sunday|Giants|2
+Swallows|Sunday|Dragons|7
+Bay Stars|Sunday|Tigers|2
+Giants|Sunday|Carp|4
+Dragons|Monday|Carp|6
+Tigers|Monday|Bay Stars|5
+Carp|Monday|Dragons|3
+Swallows|Monday|Giants|0
+Bay Stars|Monday|Tigers|7
+Giants|Monday|Swallows|5
+\.
